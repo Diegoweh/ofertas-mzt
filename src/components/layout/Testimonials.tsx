@@ -107,7 +107,7 @@ const Testimonials = () => {
 
               {/* Comment */}
               <p className="text-gray-700 mb-6 line-clamp-4">
-                "{testimonial.comment}"
+                &ldquo;{testimonial.comment}&rdquo;
               </p>
 
               {/* Author Info */}
