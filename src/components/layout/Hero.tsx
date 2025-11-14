@@ -6,48 +6,7 @@ import Image from "next/image"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
 
 export default function MazatlanHero() {
-  const activities = [
-    {
-      title: "Tours en Lancha",
-      description: "Isla de la Piedra, Deer Island y más",
-      discount: "25%",
-      originalPrice: "$800",
-      newPrice: "$600",
-      image: "/home/munbaExp.webp",
-      duration: "4 horas",
-      rating: 4.8,
-    },
-    {
-      title: "City Tour Histórico",
-      description: "Centro Histórico y Malecón",
-      discount: "20%",
-      originalPrice: "$450",
-      newPrice: "$360",
-      image: "/home/mazaImg.webp",
-      duration: "3 horas",
-      rating: 4.9,
-    },
-    {
-      title: "Experiencia Gastronómica",
-      description: "Mariscos frescos y cocina local",
-      discount: "15%",
-      originalPrice: "$650",
-      newPrice: "$550",
-      image: "/home/palmaress.webp",
-      duration: "2 horas",
-      rating: 4.7,
-    },
-    {
-      title: "Hoteles Zona Dorada",
-      description: "Hospedaje frente al mar",
-      discount: "30%",
-      originalPrice: "$2,500",
-      newPrice: "$1,750",
-      image: "/home/gaviana@600.webp",
-      duration: "Por noche",
-      rating: 4.6,
-    },
-  ]
+  
 
   const highlights = [
     { icon: Waves, title: "Playas Doradas", description: "21 km de costa" },
@@ -59,7 +18,7 @@ export default function MazatlanHero() {
   ]
 
   return (
-    <div className="bg-gradient-to-b from-blue-50 to-white">
+    <div id="destination" className="bg-gradient-to-b from-blue-50 to-white">
       {/* Main Hero Content */}
       <section className="container mx-auto px-4 py-16">
         <div className="text-center mb-16">
@@ -110,7 +69,7 @@ export default function MazatlanHero() {
         </div>
 
         {/* Mazatlán Highlights */}
-        <div className="mb-16">
+        <div className="">
           <h2 className="text-3xl font-sonny-vol2 font-bold text-center mb-12 text-gray-900">
             ¿Por qué elegir Mazatlán?
           </h2>
@@ -128,7 +87,7 @@ export default function MazatlanHero() {
         </div>
 
         {/* Featured Activities */}
-        <div className="mb-16">
+        {/* <div className="mb-16">
         <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-gray-900">Actividades y Ofertas Destacadas</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -186,9 +145,7 @@ export default function MazatlanHero() {
             <CarouselPrevious className="hidden md:flex -left-12" />
             <CarouselNext className="hidden md:flex -right-12" />
         </Carousel>
-        </div>
-
-        
+        </div> */}
 
 
         {/* Special Offers Banner */}

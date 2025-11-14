@@ -8,42 +8,42 @@ import { Button } from '../ui/button'
 const CarouselHotels = () => {
     const activities = [
     {
-      title: "Tours en Lancha",
-      description: "Isla de la Piedra, Deer Island y más",
+      title: "Hotel Costa de Oro",
+      description: "Hotel Costa de Oro",
       discount: "25%",
       originalPrice: "$800",
       newPrice: "$600",
-      image: "/home/munbaExp.webp",
-      duration: "4 horas",
+      image: "/home/costaDeOro.webp",
+      duration: "Por noche",
       rating: 4.8,
     },
     {
-      title: "City Tour Histórico",
-      description: "Centro Histórico y Malecón",
+      title: "Gaviana Resort",
+      description: "Gaviana Resort & Convention Center",
       discount: "20%",
       originalPrice: "$450",
       newPrice: "$360",
-      image: "/home/mazaImg.webp",
-      duration: "3 horas",
+      image: "/home/gaviana.webp",
+      duration: "Por noche",
       rating: 4.9,
     },
     {
-      title: "Experiencia Gastronómica",
-      description: "Mariscos frescos y cocina local",
+      title: "Hotel Luna Palace",
+      description: "Hotel Luna Palace",
       discount: "15%",
       originalPrice: "$650",
       newPrice: "$550",
-      image: "/home/palmaress.webp",
-      duration: "2 horas",
+      image: "/home/lunaPalace.webp",
+      duration: "por noche",
       rating: 4.7,
     },
     {
-      title: "Hoteles Zona Dorada",
-      description: "Hospedaje frente al mar",
+      title: "Hotel Pueblo Bonito",
+      description: "Hotel Pueblo Bonito Mazatlán",
       discount: "30%",
       originalPrice: "$2,500",
       newPrice: "$1,750",
-      image: "/home/gaviana@600.webp",
+      image: "/home/puebloBonito.webp",
       duration: "Por noche",
       rating: 4.6,
     },
@@ -56,7 +56,7 @@ const CarouselHotels = () => {
         <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-gray-900">Hoteles</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Precios directos sin intermediarios. Ahorra hasta un 30% en las mejores experiencias de Mazatlán.
+            Precios directos sin intermediarios. Ahorra hasta un 30% en los mejores hoteles de Mazatlán.
             </p>
         </div>
 

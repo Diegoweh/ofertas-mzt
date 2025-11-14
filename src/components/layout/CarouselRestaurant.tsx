@@ -8,12 +8,12 @@ import { Button } from '../ui/button'
 const CarouselRestaurantes = () => {
     const activities = [
     {
-      title: "Tours en Lancha",
-      description: "Isla de la Piedra, Deer Island y más",
+      title: "Panama Restaurante",
+      description: "Disfruta la mejor comida local",
       discount: "25%",
       originalPrice: "$800",
       newPrice: "$600",
-      image: "/home/munbaExp.webp",
+      image: "/home/panama.webp",
       duration: "4 horas",
       rating: 4.8,
     },
@@ -28,7 +28,7 @@ const CarouselRestaurantes = () => {
       rating: 4.9,
     },
     {
-      title: "Experiencia Gastronómica",
+      title: "Palmarés",
       description: "Mariscos frescos y cocina local",
       discount: "15%",
       originalPrice: "$650",

@@ -1,5 +1,8 @@
 import React from 'react'
 import { Button } from '../ui/button'
+import Link from 'next/link'
+
+// https://www.gomazatlan.com/assets/site/img/slider/hoteles.mp4
 
 const Header = () => {
   return (
@@ -30,12 +33,12 @@ const Header = () => {
               </p>
 
 
-              <Button
-                size="lg"
+              <Link
+                href="#destinations"
                 className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold text-lg px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105"
               >
                 ↓
-              </Button>
+              </Link>
             </div>
     </section>
   )
